@@ -1,0 +1,37 @@
+import java.util.Scanner;
+
+public class Expressions {
+
+	public static void main (String [] args)
+	{
+		System.out.println("Welcome to Grand Circus' Room Detail Generator!");
+		
+		
+		
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Please enter the length:");
+		double length = scanner.nextDouble();
+		System.out.println("Please enter the width:");
+		double width = scanner.nextDouble();
+		//area = length*width;
+		double area = length*width;
+		System.out.println("The area is:"+area);
+		//perimeter = 2*(length=width)
+		double perimeter = 2*(length+width);
+		System.out.println("The perimeter is:"+perimeter);
+		
+		System.out.println("Continue? (y/n):");
+		String userContinueAnswer = scnr.next();
+		
+		char userContinue = userContinueAnswer.charAt(0);
+		
+		
+	
+		
+	}
+	
+	}
+
+	
+
+
